@@ -1,0 +1,42 @@
+*{
+  list-style-type: none;
+  text-decoration: none;
+}
+.list h6 {
+  margin-left: 90%;
+  color: red;
+}
+.list li a{
+  text-decoration: none;
+}
+.list li a:active{
+  color: yellow;
+}
+.carousel-item img{ 
+  height: 15rem;
+}
+.figure img{
+  width: 15rem;
+}
+figcaption{
+  font-weight: bold;
+}
+.premier p{
+  font-weight: bold;
+}
+.premier span{
+  font-weight: lighter;
+}
+img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 1s;
+}
+.carousel img{
+  transform: none;
+
+}
+.navbar img{
+  transform: none;
+  width: 10rem;
+}
